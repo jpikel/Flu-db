@@ -1,0 +1,84 @@
+/*  Filename: style.css
+ *  Author: Johannes Pikel
+ *  Date: 2016.11.20
+ *  ONID: pikelj
+ *  email: pikelj@oregonstate.edu
+ *  Class: CS340-400
+ *  Description: style sheet for the fludb.php also used by map.php for the map class
+ *                              */
+
+    /*fonts for the page*/
+    body{
+        font-family: Segoe UI, Arial, sans-serif; 
+    }
+    
+    /*input form spacing and text sizing*/
+    .inputLegend{
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .inputForm{
+        padding: 5px;
+    }
+    
+    /*Give all divs a bit of padding*/
+    div{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    
+    /*The DB notifications text style*/
+    .notify{
+        font-style: italic;
+        font-weight: bold;
+        
+    }
+    
+    /*output table from the db*/
+    #outputTable{
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    #outputTable th{
+        padding: 10px;
+        border: 1px solid black;
+        text-align: left;
+    }
+    
+    #outputTable td{
+        padding: 10px;
+        border: 1px solid black;
+        
+    }
+
+    span.redtext {
+        color: red;
+    }
+    
+    /*the notifications div style*/
+    .serverNote{
+        background-color: orange;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /*The general static note */
+    .note{
+        background-color: lightgrey;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: medium;
+    }
+
+    /*this is a style for the google map */
+    #map {
+        height: 640px;
+        width: 100%;
+    }
